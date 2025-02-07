@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="bg-animated"></div>
+        <div class="color-change"></div>
+        <div class="form-wrapper sign-in">
+        <form action="" class="form-sigin">
+            <h2>Sign In</h2>
+            <div class="input-box">
+                <input type="email" class="email" >
+                <label>Email</label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" class="password">
+                <label>Password</label>
+            </div>
+            <div class="forget-pass">
+                <a class="forget" href="#">Forget Password</a><br><br>
+                 <button class="button" onclick="loging()">Sign`In</button>
+
+                <div class="sign-link">
+                    <p>Don't have an account? <a class="login">Login</a></p>
+               </div> 
+            <div class="social-platform">
+                <p>Or sign in with</p>
+                <div class="social-icon">
+                    <a class="forget google" href="#"><i class="fa-brands fa-google"></i></a>
+                    <a class="forget facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="forget" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                </div>
+            </div>
+        </form>
+        <form action="" class="form-login disable ">
+            <h2>Log In</h2>
+            <div class="input-box">
+                <input type="email" class="Lemail" >
+                <label>Email</label>
+            </div>
+
+            <div class="input-box">
+                <input type="password" class="Lpassword">
+                <label>Password</label>
+            </div>
+            <div class="forget-pass">
+                <a class="forget" href="#">Forget Password</a><br><br>
+                 <button class="Lbutton" onclick="loging()">Log`In</button>
+
+                <div class="sign-link">
+                    <p>Don't have an account? <a class="sigin">Sig'in</a></p>
+               </div> 
+            <div class="social-platform">
+                <p>Or sign in with</p>
+                <div class="social-icon">
+                    <a class="forget google" href="#"><i class="fa-brands fa-google"></i></a>
+                    <a class="forget" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="forget" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+<div class="colors">
+    <span class="color" onclick="changetoColor('#77dd77')" style="--clr:#77dd77;"></span>
+    <span class="color" onclick="changetoColor('#f67599')" style="--clr:#f67599;"></span>
+    <span class="color" onclick="changetoColor('#976ed7')" style="--clr:#976ed7;"></span>
+    <span class="color" onclick="changetoColor('#1db9c3')" style="--clr:#1db9c3;"></span>
+    <span class="color" onclick="changetoColor('#ffb347')" style="--clr:#ffb347;"></span>
+</div>  
+     
+     <script type="module" src="register.js" defer></script>
+     <script type="module" src="login.js" defer></script>
+     <script type="module" src="google.js" defer></script>
+    <script src="app.js"></script>
+</body>
+</html>

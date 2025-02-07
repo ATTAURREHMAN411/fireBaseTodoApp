@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #f9f9f9; */
+    background-image: url(f6ej_c78e_210511.jpg);
+    background-size: cover;
+}
+.email, .password{
+    margin-top: 10px;
+    
+    background: transparent;
+}
+.sigin{
+    cursor: pointer;
+}
+.disable{
+    display: none;
+}
+.login{
+    cursor: pointer;
+}
+.email:active{
+    background: transparent;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #444;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 10px 0;
+    border-bottom: 2px solid #fff;
+}
+.input-box label{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+input{
+    position: relative;
+    top: 5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -10px;
+}
+
+.forget-pass{
+    width: 100%;
+    margin: 15px 0 15px 5px;
+}
+.forget-pass .forget{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.forget-pass .forget:hover{
+    text-decoration: underline;
+}
+button{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #444;
+    font-weight: 500;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: white;
+}
+.sign-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.social-platform{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.social-icon a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    margin: 15px 6px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.social-icon a i {
+    font-size: 16px;
+    line-height: 15px;
+    transition: .5s;
+    position: relative;
+    top: 5px;
+}
+
+.social-icon a i:hover{
+    color: #444;
+}
+.social-icon a:hover{
+    background: #fff;
+    color: #444;
+}
+.color-change{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1db9c3;
+    z-index: -2;
+    clip-path: circle(98% at 0 0);
+    transition-delay: 1.2s;
+}
+.colors{
+    position: absolute;
+    right: 0;
+    background: #444;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.colors .color{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: var(--clr);
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+.colors .color.active{
+    border: 2px solid #fff;
+    transform: scale(1.5);
+}
+
+.bg-animated{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1db9c3;
+    z-index: -1;
+    clip-path: circle(0% at 0 0);
+    transition: 1.2s ease-out;
+}
+.bg-animated.active {
+    transition: clip-path 1.2s ease-out;
+    clip-path: circle(98% at 0 0);
+}
+.color:focus{
+    border: 2px solid #fff;
+    transform: scale(1.5);
+}
+
+.forget-pass .card{
+    text-decoration: none;
+color: #fff;
+border: 1px solid;
+width:;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

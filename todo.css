@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+body{
+    background-image: url(f6ej_c78e_210511.jpg);
+    background-size: cover;
+
+}
+.todoapp{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* width: 330px;
+    height: 330px; */
+    position: absolute;
+    top: -50px;
+    left: 35%;
+    /* box-shadow: 0px 0px 15px	rgb(255, 127, 62); */
+    background-color: transparent;
+   padding: 30px 10px;
+}
+.todoBtn{
+    width: 100%;
+    height: 50px;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4d2405;
+    border: none;
+    text-align: center;
+    position: absolute;
+    top: 17%;
+}
+.submitBtn{
+    font-size: 20px;
+}
+#tittle{
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4d2405;
+    background: transparent;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+}
+.tittle{
+   margin-top: 20px;
+   color: #4d2405;
+   position: absolute;
+   top: 26%;
+   font-size: 30px;
+   left: 37%;
+}
+#describtion{
+    outline: none;
+    border: 2px solid #4d2405;
+    width: 28%;
+    background: transparent;
+    height: 40px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: 53%;
+    left: 37%;
+}
+.describtion{
+    position: absolute;
+    top:46%;
+    font-size: 25px;
+    left: 37%;
+    color: #4d2405;
+}
+.submitBtn{
+    position: absolute;
+    border: none;
+    top: 66%;
+    left: 35%;
+    background: transparent;
+    padding: 7px 27px 13px 27px;
+    border-radius: 18px;
+    color: #4d2405;
+}
+.submitBtn:hover{
+    padding: 7px 27px 13px 27px;
+    background-color: #4d2405;
+    color: #fff;
+    transition: 1s 0.5s 0.2s;
+}
+span{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.outputtodo{
+    margin-left: 30px ;
+    /* border: 1px solid #ff7e00; */
+    width: 250px;
+    /* height: 250px; */
+   padding: 15px 18px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   /* box-shadow: 0px 0px 15px	rgb(255, 127, 62); */
+
+}
+.outputtodo h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: black;
+     background-color: transparent;
+     width: 120px;
+     text-align: center;
+     margin-bottom: 5px;
+     margin-top: 5px;
+}
+.outputtodo button {
+    width: 40%;
+    text-align: center;
+    color: black;
+border: none;
+border-radius: 5px;
+height: 35px;
+}
+button{
+    cursor: pointer;
+}
+.todoapp img{
+    height: 550px;
+    width: 450px;
+}
+.outputtodo img{
+    height: 100%;
+    width: 100%;
+}
+.outputtodo{
+    position: relative;
+  
+}
+.inttittle{
+    background: transparent;
+    color: #4d2405;
+    position: absolute;
+   font-size: 23px;
+    top: 12%;
+    left: 12%;
+}
+#inttittle{
+    background: transparent;
+    color: black;
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    width: 170px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.indescribtion{
+   position: absolute;
+   left: 20%;
+   top: 35%;
+   font-size: 23px;
+}
+#indescribtion{
+    position: absolute;
+    left: 20%;
+   top: 50%;
+   background: transparent;
+    width: 160px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.editBtn img{
+    height: 50px;
+    width: 85px;
+}
+.editBtn span{
+   background: transparent;
+   position: relative;
+   top: 30px;
+   right: 3px;
+}
+.deleteBtn span{
+    background: transparent;
+    position: relative;
+    top: 30px;
+    right: 3px;
+ }
+.editBtn{
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    background: transparent;
+}
+.deleteBtn img{
+    height: 50px;
+    width: 85px;
+}
+.deleteBtn{
+    position: relative;
+    bottom: 35px;
+    left: 20px;
+    background: transparent;
+}
+
+.backBtn img{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
